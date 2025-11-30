@@ -90,7 +90,7 @@ const App = () => {
             <div className="max-w-4xl mx-auto">
                 <header className="text-center mb-10">
                     <h1 className="text-4xl font-extrabold text-teal-700 tracking-tight">
-                        Pocket Ledger
+                      Expencie
                     </h1>
                     <p className="text-slate-600 mt-2">
                         Simple, efficient, and fast expense tracking.
@@ -124,7 +124,7 @@ const App = () => {
 
                         <form onSubmit={addExpense}>
                             <div className="flex flex-col sm:flex-row gap-4 mb-4">
-                                {/* Input 1: Description (Controlled by newExpense.name) */}
+                          
                                 <input
                                     type="text"
                                     name="name" 
@@ -135,7 +135,7 @@ const App = () => {
                                     className="flex-grow p-3 border border-slate-300 rounded-lg focus:ring-teal-500 focus:border-teal-500 transition duration-150 text-slate-700"
                                 />
 
-                                {/* Input 2: Amount (Controlled by newExpense.amount) */}
+                            
                                 <input
                                     type="number"
                                     name="amount" 
@@ -145,7 +145,7 @@ const App = () => {
                                     required
                                     step="0.01"
                                     min="0.01"
-                                    className="w-full sm:w-32 p-3 border border-slate-300 rounded-lg focus:ring-teal-500 focus:border-teal-500 transition duration-150 text-slate-700"
+                                    className=" sm:w-32 p-3 border border-slate-300 rounded-lg focus:ring-teal-500 focus:border-teal-500 transition duration-150 text-slate-700"
                                 />
                             </div>
 
